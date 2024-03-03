@@ -40,9 +40,21 @@ const User = [
     }
 ]
 
-console.log(User[1].email);
+// console.log(User[1].email);
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+
+
+const course = {
+    courseName : "Js in Hindi",
+    coursePrice : 999,
+    courseTeacher : "Hitesh Choudary"
+
+}
+
+const {courseTeacher} = course
+console.log(courseTeacher);
